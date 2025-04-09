@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll('.parte').forEach(div => div.classList.remove('visivel'));
 
 //Seleciona a div da parte especificada na URL
+
+document.title.add("Teste");
+
 const parteDiv = document.getElementById(`parte${parte}`);
 if(parteDiv){
     parteDiv.classList.add('visivel');//adiciona a classe visivel a div para exibi-la
