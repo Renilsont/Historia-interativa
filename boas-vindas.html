@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem-Vindo à historia!</title>
+    <style>
+        body{
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        
+        h1{
+            font-size: 6vw;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image{
+            width: 90%;
+            max-width: 300px;    
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }  
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 5vw;
+            }
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Vamos começar a historia de como se formou uma amizade inesperada entre um grande leão e um pequeno ratinho</h1>
 
-    <img src="Imagens/leao dormindo.jpg" alt="" width="300">
-
-    <h2>Aponte a câmera no qrcode abaixo para começar</h2>
-
-    <img src="qrcodes/QRcode pt1.png" alt="QR Code Parte 1" width="300">
-
-    <a href="historia.html"></a> 
+    <img id="Image" src="Imagens/leao dormindo.jpg" alt="">
 </body>
 </html>
