@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Leão e o Ratinho</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="historia.js"></script> <!-- Carregar JS só depois do HTML -->
+</head>
+<body>
+    <h1>História: O Leão e o Ratinho</h1>
+
+    <div id="parte1" class="parte visivel">
+        <p>Um dia, cansado de tanto caçar, o leão deitou-se debaixo de uma árvore para descansar
+            quando um ratinho correndo pela floresta passou por cima do leão. O leão acordou bravo e
+            capturou o ratinho com sua pata.</p>
+        <img src="Imagens/leao dormindo.jpg" alt="Leão dormindo" width="300">
+        <p>— Como ousa me perturbar? — rugiu o leão, pronto para devorar o pequeno roedor.
+            O ratinho, tremendo de medo, implorou:
+            — Por favor, senhor Leão, me perdoe! Se me deixar ir, prometo que um dia vou retribuir sua bondade.
+            O leão riu alto, mas libertou o ratinho.</p>
+    </div>
+
+    <div id="parte2" class="parte invisivel">
+        <p>Dias depois, o leão caiu em uma armadilha de caçadores. Amarrado, rugia furiosamente.
+            O ratinho escutou os rugidos e foi até o local.</p>
+        <img src="Imagens/leão na floresta.jpg" alt="Leão preso" width="300">
+    </div>
+
+    <div id="parte3" class="parte invisivel">
+        <p>Com seus pequenos dentes afiados, o ratinho roeu as cordas e libertou o leão.
+            — Agora vê que mesmo um pequeno rato pode ajudar um leão poderoso — disse o ratinho.</p>
+        <img src="Imagens/ratinho salvando o leao.jpg" alt="Ratinho salvando o leão" width="300">
+        <p><strong>Moral da história:</strong> Nenhum ato de bondade é pequeno demais.</p>
+    </div>
+
+    <div class="botoes">
+        <button id="voltarBotao" onclick="voltar()">Voltar</button>
+        <button id="proximoBotao" onclick="ProximaParte()">Continuar</button>
+    </div>
+</body>
+</html>
