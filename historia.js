@@ -12,6 +12,9 @@ document.querySelectorAll('.parte').forEach(div => div.classList.remove('visivel
 const parteDiv = document.getElementById(`parte${parte}`);
 if(parteDiv){
     parteDiv.classList.add('visivel');//adiciona a classe visivel a div para exibi-la
+
+    const tituloParte = parteDiv.getAttribute('data-title');
+    document.title = `${tituloParte} :: O Leão e o Rqqtinho`;
 } else {
     document.body.innerHTML += '<p>Parte não encontrada.</p>';
 }
