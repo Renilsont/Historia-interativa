@@ -13,6 +13,7 @@ const parteDiv = document.getElementById(`parte${parte}`);
 if(parteDiv){
     parteDiv.classList.add('visivel');//adiciona a classe visivel a div para exibi-la
 
+    //atualiza o título da página a partir no atributo data-title
     const tituloParte = parteDiv.getAttribute('data-title');
     document.title = `${tituloParte} :: O Leão e o Rqqtinho`;
 } else {
