@@ -15,7 +15,7 @@ if(parteDiv){
 
     //atualiza o título da página a partir no atributo data-title
     const tituloParte = parteDiv.getAttribute('data-title');
-    document.title = `${tituloParte} :: O Leão e o Rqqtinho`;
+    document.title = `${tituloParte} :: O Leão e o Ratinho`;
 } else {
     document.body.innerHTML += '<p>Parte não encontrada.</p>';
 }
